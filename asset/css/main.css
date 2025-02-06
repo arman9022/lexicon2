@@ -57,6 +57,11 @@ footer{
   display: block;
   font-weight: 400;
   color: #222;
+  transition: .3s;
+}
+.footer-link:hover{
+  letter-spacing: 1px;
+  color: #E31E27;
 }
 .footer-bottom-text{
   color: #aaaaaa;
@@ -79,8 +84,8 @@ footer{
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
   color: var(--bs-navbar-color);
-  background-color: #E31E2790;
-  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+  background-color: transparent;
+  border: 2px solid #E31E27;
   border-radius: var(--bs-navbar-toggler-border-radius);
   transition: var(--bs-navbar-toggler-transition);
 }

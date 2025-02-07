@@ -2,6 +2,10 @@ a{
   text-decoration: none;
   color: #222;
   font-weight: 500;
+  transition: .3s;
+}
+a:hover{
+  color: #E31E27;
 }
 
 
@@ -45,6 +49,19 @@ nav{
   background-repeat: no-repeat;
   background-size: cover; 
   border-radius: 100%; 
+}
+#achievement{
+  font-family: "Public Sans", serif;
+}
+#achievement p{
+  color: #6D737A;
+}
+#signUpFree{
+  background-color: #FFECED;
+  font-family: "Public Sans", serif;
+}
+.color-highlight{
+  color: #E31E27;
 }
 footer{
   font-family: "Jost", serif;

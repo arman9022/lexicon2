@@ -192,8 +192,3 @@ footer{
   opacity: 1;
   color: #20B486;
 }
-@media screen and (max-width: 800px) {
-  .slick-prev, .slick-next, .slick-prev:before, .slick-next:before {
-    display: none !important;
-  }
-}
